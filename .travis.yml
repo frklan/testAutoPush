@@ -11,7 +11,7 @@ deploy:
   api_key:
     secure: cq/sOsboCYkyvmDIvWAtAB4/xEXw9syionaZC+t6WDtBTc4cKZ7X+SA59s0BreaiGnokffE2NJ+GJ52ZJpV5EPuy6zLnTgPKLQEXFRJEbrIYEBUV8ftYm1OZpiOz/EzroAxjr7a65wSKyX6xcTW/axdpUH7OCnJcw6J53goyYnOrhcnO7dSuat8fUuaWKyfUMnQ34QeAarBqGP/x+PHX8ykPZiRuxG6vHly1YRsSjf69r5xpf2sbQdJQyKNqTmCpxxj2Tb+FNpW06E/y5rnx9MSKFWw8L+mDGOWuwN7kvy56flT3nL1OlZo4ch+g44pyrf60MuFKO4aQzyfvqIqfFzwHbZhnb4PxSGLTbSQj9AwAyPMoqLwX2mPyMQ0vdxuD4e7Vw3y7Atxjp5julqePWEnTpy6q8vwMPyKl7VbMECmsl9l5ir4f0rM3qK283qS8TkCsLIZaVrVtHA+dDYP4d6NfNV/v+9K8rVbz4iTIzYia8KSZcY+9IHvks3ymuTRL8zmDe3dT8G90SCWN3U5YVFO7aaZt2d5H04tvOyhjE7uXw3JBbXC7Qljr6gmRbGcWqcp5Ems1Y/9j8HsVhXt39z1NW/4zHtfFNGpntt/s13a3BQcbOhXEFKqWqLVS/L/n4XFSumuwVef3jRaYv5F9lVgqGdZdqr6rtvQdqjiIqR4=
   file_glob: true
-  file: $TRAVIS_BUILD_DIR/*
+  file: target/*.jar
   skip_cleanup: true
   on:
     repo: frklan/testAutoPush
