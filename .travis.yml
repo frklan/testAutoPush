@@ -15,8 +15,8 @@ deploy:
   skip_cleanup: true
   on:
     repo: frklan/testAutoPush
-    tag: true
+    tags: true
 notifications:
   email:
     on_success: never
-    on_failure: change 
+    on_failure: change
